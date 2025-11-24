@@ -1,0 +1,16 @@
+Ideas sobre el proceso de Onboarding
+------------------------------------
+
+Alternativas evaluadas:
+1. Onboarding interno con motor de reconocimiento facial propio (descartado).
+   - Costoso de mantener.
+   - Falta de certificación bancaria.
+
+2. Onboarding con proveedor externo:
+   - AWS Rekognition
+   - Azure Face API
+   - Veridas
+   - FaceTec
+
+Decisión final:
+Delegar la biometría a un proveedor cloud certificado por normativa internacional.

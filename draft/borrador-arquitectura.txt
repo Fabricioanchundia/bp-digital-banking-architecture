@@ -1,0 +1,15 @@
+Borrador de arquitectura - BP Digital Banking
+---------------------------------------------
+
+Este archivo contiene notas preliminares usadas para construir la arquitectura final.
+Se incluyen ideas iniciales, decisiones evaluadas y comentarios previos antes de la versión final.
+
+Puntos clave analizados:
+- Modelo C4 (Contexto, Contenedores, Componentes)
+- Elección entre AWS y Azure
+- Necesidad de PKCE en móviles
+- Auditoría inmutable (append-only)
+- CQRS para mejorar rendimiento
+- Onboarding biométrico externo
+- Microservicios críticos: Clientes, Movimientos, Transferencias, Auditoría
+- Resiliencia con Circuit Breaker y reintentos limitados
